@@ -37,7 +37,7 @@ if (blankerCheck === 'enabled') {
           style.width = style.height = "100%"
           doc.head.appendChild(link);
           doc.body.appendChild(iframe)
-          location.replace("https://classroom.google.com")
+          location.replace("https://issaquah.instructure.com/")
       }
   }
 }
@@ -253,5 +253,6 @@ function vAG() {
 if (window.location.protocol === "http:") {
   window.location.href = window.location.href.replace("http:", "https:");
 }
+
 
 console.log("%cJoin our Discord! discord.gg/unblocking", "color: cyan; font-size: 20px");
