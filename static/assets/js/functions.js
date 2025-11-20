@@ -25,8 +25,8 @@ if (blankerCheck === 'enabled') {
           const iframe = doc.createElement("iframe")
           const style = iframe.style
           const link = doc.createElement("link")
-          const name = localStorage.getItem("name") || "My Drive - Google Drive";
-          const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png";
+          const name = localStorage.getItem("name") || "Search | M365 Copilot";
+          const icon = localStorage.getItem("icon") || "https://res.cdn.office.net/officehub/images/content/images/favicon_copilot-4370172aa6.ico";
           doc.title = name;
           link.rel = "icon";
           link.href = icon;
@@ -256,3 +256,4 @@ if (window.location.protocol === "http:") {
 
 
 console.log("%cJoin our Discord! discord.gg/unblocking", "color: cyan; font-size: 20px");
+
